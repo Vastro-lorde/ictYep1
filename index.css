@@ -1,0 +1,118 @@
+* {
+    color: rgb(56, 56, 56);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    /*text-align: center;*/
+}
+
+a {
+    display: block;
+}
+
+#bio {
+    text-align: right;
+}
+
+#body {
+    background-color: blanchedalmond;
+    border: solid 1px black;
+    margin: auto;
+    width: 60vw;
+}
+
+#card {
+    background-color: whitesmoke;
+    height: 100vh;
+    padding: 4%;
+    text-align: center;
+}
+
+form {
+    background-color: bisque;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.63);
+    display: block;
+    height: auto;
+    margin: auto;
+    margin-top: 20vh;
+    padding: 4%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 100px;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    text-align: left;
+}
+
+#img {
+    text-align: left;
+}
+
+#intro {
+    height: 100vh;
+    padding: 4%;
+    text-align: center;
+}
+
+
+#list {
+    background-color: bisque;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.63);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    margin: auto;
+    margin-top: 20vh;
+    padding: 4%;
+    text-align: center;
+}
+
+#motto {
+    font-size: 40px;
+    padding-top: o;
+    padding-bottom: 40px;
+}
+.section {
+    padding: 2%;
+    width: 70%;
+}
+
+ul {
+    padding-left: -3%;
+}
+
+@media only screen and (max-width: 790px) {
+    #bio {
+        text-align: center;
+    }
+    #list {
+      display: block;
+      background-color: lightblue;
+    }
+    img {
+        text-align: center;
+        margin: auto;
+    }
+    #img {
+        text-align: center;
+    }
+    .section {
+        margin: auto;
+        text-align: center;
+    }
+    ul {
+        padding-left: 0;
+    }
+  }
